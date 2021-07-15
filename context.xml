@@ -14,7 +14,9 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
---><!-- The contents of this file will be loaded for each web application --><Context>
+-->
+<!-- The contents of this file will be loaded for each web application -->
+<Context>
 
     <!-- Default set of monitored resources. If one of these changes, the    -->
     <!-- web application will be reloaded.                                   -->
@@ -26,15 +28,4 @@
     <!--
     <Manager pathname="" />
     -->
-    <ResourceLink name="mylinkrei12" global="jdbc/rei12" type="javax.sql.DataSource" />
-	<ResourceLink name="mylinkex05" global="jdbc/ex05" type="javax.sql.DataSource" />
-	<ResourceLink name="mylinkexfinal" global="jdbc/exfinal" type="javax.sql.DataSource" />
-	<ResourceLink name="mylinkshop" global="jdbc/shop" type="javax.sql.DataSource" />
-	<ResourceLink name="mylinkshop1" global="jdbc/shop1" type="javax.sql.DataSource" />
-	<ResourceLink name="mylinklogin" global="jdbc/login" type="javax.sql.DataSource" />
-	<ResourceLink name="mylinkworld" global="jdbc/world" type="javax.sql.DataSource" />
-	<ResourceLink name="mylinkmarket_tables" global="jdbc/market_tables" type="javax.sql.DataSource" />
-	<ResourceLink name="mylinktest" global="jdbc/test" type="javax.sql.DataSource" />
-	<ResourceLink name="mylinkworkbook" global="jdbc/workbook" type="javax.sql.DataSource" />
-	<ResourceLink name="mylinkkeijiban" global="jdbc/keijiban" type="javax.sql.DataSource" />
 </Context>
